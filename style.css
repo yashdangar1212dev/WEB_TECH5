@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header_container {
+    height: 55px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 11%;
+    align-items: center;
+}
+.logoImg {
+    height: 50px;
+
+}
+.searchbox {
+    height: 40px;
+    width: 50%;
+
+}
+
+/* NAVIGATION */
+
+.nav_container{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(80, 80, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+/* MAIN SECTION */
+
+.main_container{
+    height: 350px;
+    width: 100%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.box{
+    height: 300px;
+    width: 20%;
+    border: 2px solid black;
+}
+.box_img{
+    height: 230px;
+    width: 100%;
+}
+
+/* FOOTER */
+
+.footer_container{
+    height: 400px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.foot{
+    height: 350px;
+    width: 20%;
+    color: aliceblue;
+}
+/* CART */
+
+.crt{
+    height:400px;
+    width:100%;
+}
+
+/* LOGIN */
+
+.starMark{
+    color: red;
+}
+
+/* CART */
+.crt{
+    height: 300px;
+    width: 80%;
+    background-color: rgb(32, 32, 58);
+    display: flex;
+    gap:50px;
+}
+.cImg{
+    height: 250px;
+
+}
+.ctxt{
+    height:300px;
+    color:chocolate;
+}
